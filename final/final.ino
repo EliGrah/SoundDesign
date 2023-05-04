@@ -44,7 +44,7 @@ void loop(){
       Serial.print(boardisDumbOrIam);
       Serial.print(" ");
     } else {
-       digitalWrite(j, HIGH);
+      digitalWrite(j, HIGH);
       btn[j] = digitalRead(j);
       Serial.print(btn[j]);
       Serial.print(" ");
